@@ -39,11 +39,11 @@ The final data set is made up of:
 - The remaining columns gives the mean of each of the measurements (given in the column name) by subject and activity
 
 ##Data Transformation
-In this analysis we:
-1. Load the training and the test sets.
-2. Uses the features and activity labels datasets to create understandable row and column labels.
-3. Extracts only the measurements on the mean and standard deviation for each measurement.
-4. Combines the training and test sets into one large data set.
-5. Cleans the column names by using descriptive variable names in the data set
-6. Finally, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-7. Writes this data set to file.
+In this analysis we:  
+1. Load the training and the test sets.  
+2. Uses the features and activity labels datasets to create understandable row and column labels.  
+3. Extracts only the measurements on the mean and standard deviation for each measurement.  
+4. Combines the training and test sets into one large data set.  
+5. Cleans the column names by using descriptive variable names in the data set  
+6. Finally, creates a second, independent tidy data set with the average of each variable for each activity and each subject.  
+7. Writes this data set to file.  
