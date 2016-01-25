@@ -8,5 +8,7 @@ This is the final project for the Coursera course for "Getting and Cleaning Data
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-#Notes on this program
-This program requires the zip file: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip is downloaded and unzipped in the working directory of the user. We also use the libraries reshape2 and data.table.
+#Running run_analysis.R
+This program requires the zip file: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip is downloaded and unzipped in the working directory of the user. 
+We also use the libraries reshape2 and data.table (install.packages("reshape2"), install.packages("data.table").
+You can then directly run this program using source("run_analysis.R")
